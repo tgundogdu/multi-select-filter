@@ -1,0 +1,29 @@
+.multi-select {
+  border: solid 2px #ddd;
+  background-color: #eee;
+  padding: 40px;
+  border-radius: 8px;
+  h3 {
+    font-size: 24px;
+    margin: 0 0 20px 0;
+  }
+  .categories {
+    margin: 30px 0;
+    max-height: 300px;
+    overflow-y: auto;
+    position: relative;
+    .loading {
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(255, 255, 255, 0.7);
+      text-align: center;
+      padding-top: 20%;
+    }
+    .error{
+      color: red;
+    }
+  }
+}
